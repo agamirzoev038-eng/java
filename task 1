@@ -1,0 +1,9 @@
+# java<input type="text" id="text">
+<button onclick="goster()">Göstər</button>
+<p id="netice"></p>
+<script>
+function goster() {
+    let yazi = document.getElementById("text").value;
+    document.getElementById("netice").innerText = yazi;
+}
+</script>
